@@ -1,0 +1,1 @@
+[21-Jan-2012 10:00:55] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'dithe107_site2'@'localhost' (using password: YES) in /home/dithe107/public_html/emerson/admin/conectdb.php on line 1

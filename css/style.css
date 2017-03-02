@@ -1,0 +1,86 @@
+/**
+ * Base Stylesheet of multiUpload html documentation
+ * Doesn't need to be used in your projects
+ */
+
+div, p, span, a, input, label { font-family:'Lucida Sans Unicode','Lucida Sans','Trebuchet MS'; font-size:10pt; }
+h1, h2, h3, h4 { font-family:Georgia,'Trebuchet MS'; font-weight:normal; }
+h1 { font-size: 18pt; }
+h2 { font-size: 15pt; }
+h4 { font-weight:700; }
+a { color:#660000; }
+a:hover { color:#BB0000; }
+h4, p { margin:0; padding:0; }
+label { display:block; }
+
+.upload_actions { display:none; }
+
+#uploader { margin-bottom:8px;}
+
+ul {    list-style-type: none;}
+
+/* Admin */
+#admin {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    right: 50px;
+    text-align: center;
+    text-decoration: none;
+    top: 10px;
+    width: 600px;
+}
+
+#menu {
+    background: url("../images/bg_menu.jpg") repeat-x scroll 0 0 transparent;
+    height: 50px;
+    position: relative;
+}
+
+#menu  ul a {
+    color: #ffffff;
+    float: left;
+    letter-spacing: 5px;
+    list-style: none outside none;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
+    top: 15px;
+}
+
+#menu  ul a:hover{
+    color: #cccccc;
+}
+
+#menu  ul li {
+    margin: 0 auto;
+}
+
+#logo {
+	background: url("../images/dj.png") no-repeat;
+	width:70px;
+	height:60px;
+}
+/* Fim Admin */
+
+/* jQuery lightBox plugin - Gallery style */
+#gallery {
+	background-color: #444;
+	padding: 10px;
+	width: 779px;
+}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul img {
+	border: 5px solid #3e3e3e;
+	border-width: 5px 5px 20px;
+}
+#gallery ul a:hover img {
+	border: 5px solid #fff;
+	border-width: 5px 5px 20px;
+	color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
+
